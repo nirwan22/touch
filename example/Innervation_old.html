@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Innervation Interaction</title>
+    <style>
+        body {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            user-select: none; /* Prevent text selection */
+        }
+        #canvas {
+            border: 1px solid black;
+            touch-action: none; /* Prevent default touch actions */
+            display: block;
+            margin: 0 auto;
+            user-select: none; /* Prevent text selection */
+        }
+        #status {
+            margin-top: 10px;
+            font-size: 16px;
+            text-align: center;
+            user-select: none;
+        }
+        button {
+            font-size: 16px;
+        }
+        #buttonContainer {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 10px;
+            user-select: none;
+        }
+        #touchInfo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 14px;
+            background-color: rgba(255,255,255,0.8);
+            padding: 5px;
+            border: 1px solid #ccc;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"  height="600"></canvas>
+    <div id="buttonContainer">
+        <button id="decreaseRateButton" style="padding: 10px;">Decrease Heart Rate</button>
+        <button id="startStopButton" style="padding: 10px;">Start</button>
+        <button id="increaseRateButton" style="padding: 10px;">Increase Heart Rate</button>
+    </div>
+    <div id="status">Touch a nerve to change the heartbeat.</div>
+    <div id="touchInfo"></div>
+
+    <!-- Include the innervation.js script -->
+    <script src="innervation.js" type="text/javascript"></script>
+</body>
+</html>
