@@ -1,0 +1,222 @@
+@media screen and (orientation:portrait) {
+
+ /*/
+ .rotateall {
+    -ms-transform: rotate(-90deg);  IE 9 
+    -webkit-transform: rotate(-90deg); Chrome, Safari, Opera 
+    transform: rotate(-90deg);
+   height: 100vh;
+    width: 100vh;
+    margin-bottom:50vh;
+    
+  }
+  */
+
+}
+.sub-banner2 {
+  position: relative;
+  background: url(../img/banner-sub2.png) center no-repeat;
+  background-size: cover;
+  height: 120px;
+  display:block;
+  width:100%;
+}
+
+.sub-banner {
+    position: relative;
+    background: url(../img/banner-sub.png) right no-repeat;
+    background-size: cover;
+    height: 120 px;
+    display:block;
+    width:100%;
+}
+.buttonsrow
+{
+    display: flex;
+justify-content: space-around;
+    
+}
+.buttoncenter
+{
+    position: absolute;
+    bottom: 5px;
+    left: auto;
+    right: auto;
+    flex: 1 0 auto;
+}
+.buttonleft
+{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    flex: 1 0 auto;
+}
+.buttonright
+{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    flex: 1 0 auto;
+}
+.imagetexture
+{
+    position: relative;
+   
+    
+}
+.center-fit {
+ 			object-fit: cover;
+width: 100%;
+max-height: 400px;
+        }
+
+.btn-outline-light
+ {
+    --bs-btn-bg:white;
+    --bs-btn-color: black;    
+    --bs-btn-hover-bg: #abb7c3;
+ }
+/* @import url(https://fonts.googleapis.com/css?family=Mulish); */
+/* @import url(https://fonts.googleapis.com/css?family=Mulish:400,700); */
+
+/* body, html {height:100%; margin:0;} */
+
+/* *, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ } */
+
+/* .pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+} */
+
+/* .pace-inactive {
+  display: none;
+} */
+
+/* .pace .pace-progress {
+  background: #ee3148;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 6px;
+} */
+
+/* body {} */
+
+/* section {
+  display:block;
+  width:100%;
+  text-align:center;
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border:solid black;
+  height:105%;
+} */
+/* section.left {
+} */
+
+/* article {
+  box-shadow:1px 1px 5px rgba(0,0,0,.5);  
+  max-width:62em;
+  max-height:70%;
+  margin:auto;
+  padding:1em 2.2em;
+  background:#faf5e5;
+  background:rgba(255,250,250,.55);
+  opacity:.94;
+} */
+
+/* .button-wrapper {
+text-align:center;
+margin:5px;  
+} */
+
+/* section a {
+    display:inline-block;
+    background:#54d0ed;
+    border:solid 1px #ddd;
+    color:#081c2b;;
+    text-decoration:none;
+    font-size:1.5em;
+    padding:.5em .6em; 
+    margin:2px;
+    border-radius:0.25em;
+    margin:auto;
+
+} */
+
+/* section a:active {
+    box-shadow: inset 0 2px 4px 2px rgba(10,10,10,.3), 0 2px 2px rgba(0,0,0,.5);
+
+} */
+
+
+
+/* .sub-banner {
+    position: relative;
+    background: url(../img/banner-sub.png) right no-repeat;
+    background-size: cover;
+    height: 120 px;
+    display:block;
+    width:100%;
+
+} */
+
+/* h1, h2, h3, h4, h5 {
+    font-family: 'Mulish', sans-serif;   
+    line-height:1.05;  
+    color:#081c2b;
+    
+} */
+
+/* h1 { font-size:3em;padding:30px 30px 30px 30px;margin:auto;} */
+/* h2 { font-size:2.6em;padding:20px 20px 20px 20px;margin:auto;} */
+
+/* p {
+font-size:26px;
+ font-family: 'Mulish', sans-serif;
+  margin:.4em auto;
+} */
+
+/* #p1 {
+  display:block;
+  color:#00b;
+  background-color:#fff;  
+  margin:auto;
+} */
+/* article{
+  background:none;
+  box-shadow:none;
+  padding-right:40%;
+} */
+
+
+
+
+/* #touchsurface, #touchsurface_p4, #touchsurface_p1, #touchsurface_p2, #touchsurface_p3, #touchsurface_p5, #touchsurface_p6, #touchsurface_p7, #touchsurface_p8, #touchsurface_p9,  #touchsurface_p10, #touchsurface_p11, #touchsurface_p12, #touchsurface_p13, #touchsurface_p14, #touchsurface_p15, #touchsurface_p16, #touchsurface_p17, #touchsurface_p18, #touchsurface_p19, #touchsurface_p20, #touchsurface_p21, #touchsurface_p22 {
+    width:50%;
+} */
+
+/* @media screen and (orientation: portrait) and (min-width: 500px) {
+
+    #touchsurface, #touchsurface_p4, #touchsurface_p1, #touchsurface_p2, #touchsurface_p3 {
+	width:100%;
+    }
+    
+} */
+
+/* @media screen and (min-width: 1500px) {
+
+
+    #sub-banner {
+	height: 140px;
+    }
+} */
